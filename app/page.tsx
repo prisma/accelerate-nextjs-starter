@@ -3,6 +3,8 @@ import { QuotesLoading } from "@/components/Quote/QuotesLoading";
 import { Quotes } from "@/components/Quote/Quotes";
 import { Suspense } from "react";
 
+export const dynamic = "force-dynamic";
+
 export default async function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-start p-8 md:p-24">
