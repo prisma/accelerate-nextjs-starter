@@ -4,6 +4,8 @@
 
 Welcome to the Accelerate Next.js Starter Project! This project showcases how to integrate Prisma with Accelerate in a Next.js application.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fprisma%2Faccelerate-nextjs-starter&env=DATABASE_URL,DIRECT_URL,NEXT_PUBLIC_URL)
+
 It also [demonstrates](./app/api/route.ts#L15-46) every available caching strategy in Accelerate, along with a query that utilizes only connection pooling without any caching enabled.
 
 > To learn more about cache strategies in Accelerate, visit our [docs](https://www.prisma.io/docs/data-platform/accelerate/concepts#cache-strategies).
